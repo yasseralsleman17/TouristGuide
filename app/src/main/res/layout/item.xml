@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageViewMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:padding="@dimen/_15sdp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="موسم الرياض"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_30sdp"
+            />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_marginStart="@dimen/_50sdp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="موسم الرياض بخليك تلف العالم وانت في مكانك \n مناطق موسم الرياض بوليفارد رياض ستي"
+            android:textSize="@dimen/_16sdp"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>
